@@ -19,5 +19,5 @@ What I learnt:
 - After a photo is selected, I set up a Photo service to upload the photo to Firebase storage and then push the reference url to 
   the Firebase database so we can use these urls to retrieve all the photos from the storage and pop them up in Feed page.
   
-- implement getPhoto in PhotoService to retrieved and setPhoto in PhotoCell and then delegate the tasks to TableView to actually update the view with retrieved photos on Feed page 
+- implement getPhoto in PhotoService and setPhoto in PhotoCell and then delegate the tasks to TableView to actually update the view with retrieved photos on Feed page 
 
