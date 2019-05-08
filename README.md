@@ -29,6 +29,6 @@ What I learnt:
   
 How to run the app:
 
-Clone the project and simply run it in Xcode with command + R
+Clone the project and simply run it in Xcode with command + R.
 You shouldn't need to install cocopod firebase
   
