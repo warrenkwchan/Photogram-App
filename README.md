@@ -21,3 +21,14 @@ What I learnt:
   
 - implement getPhoto in PhotoService and setPhoto in PhotoCell and then delegate the tasks to TableView to actually update the view with retrieved photos on Feed page 
 
+- use open source package SDWebImage to download images asynchronous so the UI view doesn't freeze waiting for the load   finished. Add a spinner from UIKit package when loading the photos or refresh. 
+
+- how to get the progress of an upload to Firebase Storage with UICircularProgress Ring, to display the circular progress bar
+  control, to navigate to a different tab upon upload completion.
+  
+  
+How to run the app:
+
+Clone the project and simply run it in Xcode with command + R
+You shouldn't need to install cocopod firebase
+  
